@@ -1,0 +1,26 @@
+{
+  "name": "download-checksum",
+  "version": "0.0.0",
+  "description": "Checksums plugin for Download",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/download-checksum.git"
+  },
+  "keywords": [
+    "checksum",
+    "crypto",
+    "download",
+    "sha",
+    "md5"
+  ],
+  "author": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piranna/download-checksum/issues"
+  },
+  "homepage": "https://github.com/piranna/download-checksum#readme"
+}
