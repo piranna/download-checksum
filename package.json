@@ -1,8 +1,8 @@
 {
   "name": "download-checksum",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Checksums plugin for Download",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
     "test": "./test.js"
   },
@@ -15,12 +15,18 @@
     "crypto",
     "download",
     "sha",
-    "md5"
+    "md5",
+    "pgp",
+    "gpg"
   ],
   "author": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/piranna/download-checksum/issues"
   },
-  "homepage": "https://github.com/piranna/download-checksum#readme"
+  "homepage": "https://github.com/piranna/download-checksum#readme",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "openpgp": "^1.3.0"
+  }
 }
