@@ -1,6 +1,6 @@
 {
   "name": "download-checksum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Checksums plugin for Download",
   "main": "lib",
   "scripts": {
