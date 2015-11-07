@@ -25,8 +25,16 @@ var downloads =
     url: 'http://example.com/Windows_10.tar.gz',
     pgp:
     {
-      ascFile: 'path/to/signature.asc',
-      pubFile: 'path/to/publicKey.pub'
+      keys: '<armed PGP string>',
+      signature: '<armed PGP string>'
+    }
+  },
+  {
+    url: 'http://example.com/Area_51.zip',
+    pgp:
+    {
+      keysFile: 'path/to/publicKey.pub',
+      signatureFile: 'path/to/signature.asc'
     }
   }
 ]
@@ -35,6 +43,7 @@ new Download({mode: '755'})
     .get(downloads[0].url)
     .get(downloads[1].url)
     .get(downloads[2].url)
+    .get(downloads[3].url)
     .dest('dest')
     .use(checksum(downloads))
     .run();
