@@ -39,12 +39,12 @@ var downloads =
   }
 ]
 
-new Download({mode: '755'})
-    .get(downloads[0].url)
-    .get(downloads[1].url)
-    .get(downloads[2].url)
-    .get(downloads[3].url)
-    .dest('dest')
-    .use(checksum(downloads))
-    .run();
+Download()
+  .get(downloads[0].url)
+  .get(downloads[1].url)
+  .get(downloads[2].url)
+  .get(downloads[3].url)
+  .dest('dest')
+  .use(checksum(downloads))
+  .run()
 ```
