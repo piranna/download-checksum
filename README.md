@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/piranna/download-checksum.svg?branch=master)](https://travis-ci.org/piranna/download-checksum)
+[![Coverage Status](https://coveralls.io/repos/github/piranna/download-checksum/badge.svg?branch=master)](https://coveralls.io/github/piranna/download-checksum?branch=master)
+
 # download-checksum
 Checksums plugin for [download](https://github.com/kevva/download)
 
