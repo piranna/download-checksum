@@ -26,11 +26,11 @@
   },
   "homepage": "https://github.com/piranna/download-checksum#readme",
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^2.0.1",
     "inherits": "^2.0.1",
-    "openpgp": "^2.1.0"
+    "openpgp": "^2.3.2"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^3.0.2"
   }
 }
