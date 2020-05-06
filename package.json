@@ -5,7 +5,9 @@
   "main": "lib",
   "scripts": {
     "test": "mocha",
-    "coveralls": "easy-coveralls"
+    "coveralls": "easy-coveralls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,10 +31,12 @@
   "dependencies": {
     "async": "^2.6.0",
     "inherits": "^2.0.3",
-    "openpgp": "^3.0.2"
+    "openpgp": "^3.0.2",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "easy-coveralls": "0.0.1",
     "mocha": "^5.0.4"
-  }
+  },
+  "snyk": true
 }
