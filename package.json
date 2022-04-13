@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/piranna/download-checksum#readme",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.2",
     "inherits": "^2.0.3",
     "openpgp": "^3.0.2"
   },
